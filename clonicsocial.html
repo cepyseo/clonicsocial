@@ -35,6 +35,19 @@
     <!-- Ana script dosyası - SADECE BURADA OLMALI -->
     <script src="script.js"></script>
 
+    <!-- PWA için meta etiketleri -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Clonic Social">
+    <meta name="apple-mobile-web-app-title" content="Clonic Social">
+    <meta name="theme-color" content="#7c3aed">
+    <meta name="msapplication-navbutton-color" content="#7c3aed">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+    
+    <!-- iOS için icon -->
+    <link rel="apple-touch-icon" sizes="192x192" href="icons/icon-192x192.png">
+
     <style>
     .logo {
         content: url('data:image/png;base64,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');
@@ -214,5 +227,20 @@
 
     <!-- Mesaj -->
     <div id="message" class="message" style="display: none;"></div>
+
+    <script>
+        // Service Worker'ı kaydet
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker kaydı başarılı:', registration.scope);
+                    })
+                    .catch(error => {
+                        console.log('ServiceWorker kaydı başarısız:', error);
+                    });
+            });
+        }
+    </script>
 </body>
 </html>

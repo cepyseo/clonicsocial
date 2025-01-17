@@ -1154,4 +1154,52 @@ main {
 
 .search-button i {
     font-size: 1.1rem;
+}
+
+/* Mobil optimizasyonları */
+@media (max-width: 768px) {
+    .url-input-wrapper {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .search-button {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .platform-selector {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    
+    .platform-btn {
+        flex: 1 1 calc(50% - 0.5rem);
+        min-width: auto;
+    }
+    
+    .video-preview {
+        flex-direction: column;
+    }
+    
+    .video-info {
+        width: 100%;
+    }
+    
+    .download-options {
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* iOS için güvenli alan desteği */
+@supports (padding: max(0px)) {
+    body {
+        padding-left: max(0px, env(safe-area-inset-left));
+        padding-right: max(0px, env(safe-area-inset-right));
+        padding-bottom: max(0px, env(safe-area-inset-bottom));
+    }
 } 
