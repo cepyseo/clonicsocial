@@ -1,0 +1,53 @@
+const translations = {
+    tr: {
+        urlPlaceholder: "Sosyal medya bağlantısını yapıştırın",
+        allPlatforms: "Tümü",
+        downloadHD: "HD Video İndir",
+        downloadSD: "Video İndir",
+        downloadAudio: "Ses İndir",
+        settings: "Ayarlar",
+        autoDownload: "Otomatik İndirme",
+        saveHistory: "Geçmişi Kaydet",
+        notifications: "Bildirimler",
+        onlineUsers: "Çevrimiçi Kullanıcı",
+        totalVisits: "Toplam Ziyaret",
+        totalDownloads: "Toplam İndirme",
+        youtubeChannel: "YouTube Kanalımız",
+        telegramChannel: "Telegram Kanalımız",
+        copyright: "© 2025 Clonic Social - Tüm hakları saklıdır!"
+    },
+    en: {
+        urlPlaceholder: "Paste social media link",
+        allPlatforms: "All",
+        downloadHD: "Download HD Video",
+        downloadSD: "Download Video",
+        downloadAudio: "Download Audio",
+        settings: "Settings",
+        autoDownload: "Auto Download",
+        saveHistory: "Save History",
+        notifications: "Notifications",
+        onlineUsers: "Online Users",
+        totalVisits: "Total Visits",
+        totalDownloads: "Total Downloads",
+        youtubeChannel: "Our YouTube Channel",
+        telegramChannel: "Our Telegram Channel",
+        copyright: "© 2025 Clonic Social - All rights reserved!"
+    },
+    es: {
+        urlPlaceholder: "Pegar enlace de redes sociales",
+        allPlatforms: "Todos",
+        downloadHD: "Descargar Video HD",
+        downloadSD: "Descargar Video",
+        downloadAudio: "Descargar Audio",
+        settings: "Ajustes",
+        autoDownload: "Descarga Automática",
+        saveHistory: "Guardar Historial",
+        notifications: "Notificaciones",
+        onlineUsers: "Usuarios en Línea",
+        totalVisits: "Visitas Totales",
+        totalDownloads: "Descargas Totales",
+        youtubeChannel: "Nuestro Canal de YouTube",
+        telegramChannel: "Nuestro Canal de Telegram",
+        copyright: "© 2025 Clonic Social - Todos los derechos reservados!"
+    }
+}; 
